@@ -49,8 +49,33 @@
     </header>
 
     <div id="overview">
-      <h1>Group Activity Planning - Project Site</h1>
       <h2>John Dennehy - 20091408</h2>
+      <img
+        id="profile-pic"
+        src="./Headshot_FYP.jpg"
+        alt="Profile headshot picture"
+      />
+      <h1>Group Activity Planning - Project Site</h1>
+      <p class="overview-description">
+        A web application for planning group trips in Ireland and abroad. Most
+        suitable dates for events can be determined via polling functionality.
+        Instant chat functionality provided via a WebSocket implementation.
+        Mailgun API sends emails to users at each key event milestone. Users can
+        add accommodation information (scraped from booking.com), flight
+        information (scraped from kayak.com) and tourist attractions (provided
+        from Google Places API) to the event itinerary.
+      </p>
+
+      <p class="overview-technologies">Key technologies:</p>
+      <p class="overview-technologies">
+        Front-end: Vue.js, Socket.io, SCSS, Jest
+      </p>
+      <p class="overview-technologies">
+        Back-end: Nest.js, Postgres, Socket.io, JWT, Jest
+      </p>
+      <p class="overview-technologies">
+        Web-scraper: Flask, MySQL, JWT, Unittest
+      </p>
 
       <div id="overview-elements-parent-container">
         <div class="overview-individual-element">
@@ -102,7 +127,11 @@
                 </a>
               </button>
               <button class="view-project-site-button">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://group-activity-planning-nest.herokuapp.com/api/v1/docs/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i class="fas fa-cloud"></i>
                   Swagger
                 </a>
@@ -129,7 +158,11 @@
                 </a>
               </button>
               <button class="view-project-site-button">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://group-activity-planning-flask.herokuapp.com/api/v1/docs"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i class="fas fa-cloud"></i>
                   Swagger
                 </a>
@@ -164,7 +197,7 @@
       <iframe
         width="100%"
         height="515"
-        src="https://www.youtube.com/embed/C8Rj6ve0Dhw"
+        src="https://www.youtube.com/embed/HQaUXqzRxxQ"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -180,7 +213,7 @@
           href="https://www.dropbox.com/s/nskmpcl77o74flt/John_Dennehy_FYP_Final_Project_Proposal.pdf?dl=0"
           class="dropbox-embed"
           data-height="500px"
-          data-width="800px"
+          data-width="60vw"
         ></a>
       </div>
 
@@ -190,15 +223,18 @@
           href="https://www.dropbox.com/s/exlaicaansvcjeo/FYP_Project_Interim_Report.pdf?dl=0"
           class="dropbox-embed"
           data-height="500px"
-          data-width="800px"
+          data-width="60vw"
         ></a>
       </div>
 
       <h3>Final Report</h3>
       <div class="dropbox-doc-parent-container">
-        <a href="https://www.dropbox.com/s/9tw0e7ylmzd77nk/FYP_Project_Final_Report.pdf?dl=0" 
-        class="dropbox-embed"
-          data-height="500px" data-width="800px"></a>
+        <a
+          href="https://www.dropbox.com/s/9tw0e7ylmzd77nk/FYP_Project_Final_Report.pdf?dl=0"
+          class="dropbox-embed"
+          data-height="500px"
+          data-width="60vw"
+        ></a>
       </div>
     </div>
 
